@@ -1,7 +1,7 @@
 --Sam Brandt
 
 --Code that allows a user to interact and play with a jelly like
-square while moving around the environment
+--square while moving around the environment
 
 require "CloseButton"
 
@@ -123,6 +123,7 @@ function close.during(x,y)
       s,k=x,y
    end
 end
+
 function close.done(x,y)
    if bindex~=nil then
       balls[bindex].x=balls[bindex].x+(x-a)
